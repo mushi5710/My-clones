@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 5px 3px 5px rgba(1, 1, 1, 0.7);
+}
+
+.nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10;
+    padding: 20px 0px;
+}
+
+.nav>h3{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-left: 130px;
+}
+
+.right{
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-right: 55px;
+}
+
+.right h3{
+    font-weight: 600;
+}
+
+.main-section{
+    height: 100vh;
+    background-image: url(hero_image.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.texts{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.texts h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.texts h4{
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.texts p{
+    text-align: start;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.foot-section{
+    padding: 0px 200px;
+    background-color: rgba(174, 0, 255, 0.575);
+    scroll-margin: 70px;
+}
+
+.textss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.textss p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.textss button{
+    padding: 12px 10px;
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    word-spacing: -2px;
+    font-size: 15px;
+}
+
+.music{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 23px;
+}
+
+.music i{
+    font-size: 29px;
+}
+
+.music h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.textss h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.textss .munn{
+    font-size: 12px;
+    margin-top: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.ipaad{
+    position: relative;
+    top: 400px;
+    margin-top: -400px;
+}
+
+.pro-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 450px;
+    scroll-margin: 100px;
+}
+
+.text-sec{
+    text-align: center;
+    padding: 0px 200px;
+}
+
+.text-sec h4{
+    margin-bottom: 25px;
+}
+
+.text-sec p{
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
+
+.text-sec .btn{
+    margin-top: 20px;
+    padding: 7px 12px;
+    background-color: blue;
+    border: none;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.vip-sec{
+    background-image: url(video.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    scroll-margin: 50px;
+}
+
+.vip-sec .vip-text{
+ margin-bottom: 200px;
+ padding: 0px 200px;
+ color: white;
+}
+
+.vip-text h4{
+    margin-bottom: 20px;
+}
+
+.vip-text p{
+    font-size: 12px;
+}
+
+.card-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+    gap: 35px;
+}
+
+.cardpng{
+    background-image: url(gift_card.png);
+    height: 200px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.textsss{
+    width: 400px;
+}
+
+.textsss h4{
+    margin-bottom: 20px;
+}
+
+.textsss p{
+    margin-bottom: 20px;
+}
+
+.line{
+    border-bottom: solid 1px rgb(77, 75, 75);
+    margin-top: 12px;
+}
+
+.textsss button{
+    margin-top: 12px;
+    border: none;
+    color: white;
+    background-color: rgb(79, 0, 124);
+    padding: 4px 10px;
+}
+
+.right a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    transition: 0.4s ease-in-out;
+}
